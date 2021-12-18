@@ -1,3 +1,12 @@
+/* PADDING */
+.p-25 {
+  padding: 25px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
 /* COLORS */
 .color-black {
   color: #272a31 !important;
@@ -33,7 +42,7 @@
 
 /* main top padding */
 .main {
-  margin-top: 96px;
+  margin-top: 90px;
   background-color: #f8f8f8;
 }
 
@@ -41,3 +50,5 @@
   background-color: #f8f8f8;
   border: 3px solid white;
 }
+
+/*# sourceMappingURL=main-style.css.map */
