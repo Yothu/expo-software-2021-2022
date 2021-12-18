@@ -1,0 +1,65 @@
+/* FONT-FAMILY */
+@font-face {
+  font-family: cocogoose-pro;
+  src: url(./fonts/cocogoose-pro.otf);
+}
+.font-coco {
+  font-family: cocogoose-pro !important;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif !important;
+}
+
+/* FONT SIZE */
+/* 15px */
+/* 18px */
+/* 20px */
+/* 25px */
+/* 30px */
+/* 35px */
+/* 40px */
+/* 45px */
+/* 50px */
+/* 70px */
+.font-xxs {
+  font-size: 21px !important;
+}
+
+.font-xs {
+  font-size: 25px !important;
+}
+
+.font-s {
+  font-size: 20px !important;
+}
+
+.font-m {
+  font-size: 25px !important;
+}
+
+.font-xm {
+  font-size: 30px !important;
+}
+
+.font-xxm {
+  font-size: 35px !important;
+}
+
+.font-l {
+  font-size: 40px !important;
+}
+
+.font-xl {
+  font-size: 45px !important;
+}
+
+.font-xxl {
+  font-size: 50px !important;
+}
+
+.font-xxxl {
+  font-size: 95px !important;
+}
+
+/*# sourceMappingURL=font-style.css.map */

@@ -1,0 +1,45 @@
+/* COLORS */
+.color-black {
+  color: #272a31 !important;
+}
+
+.color-red {
+  color: #ec5242 !important;
+}
+
+.color-light-grey {
+  color: #d3d3d3 !important;
+}
+
+.color-light-grey-2 {
+  color: #f8f8f8 !important;
+}
+
+/* BORDER */
+.border-red {
+  border-color: #ec5242 !important;
+}
+
+/* Navbar */
+#nav-bar {
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#outer-header-container {
+  justify-content: center;
+}
+
+/* main top padding */
+.main {
+  margin-top: 96px;
+  background-color: #f8f8f8;
+}
+
+.main-description {
+  background-color: #f8f8f8;
+  border: 3px solid white;
+}
+
+/*# sourceMappingURL=main-style.css.map */

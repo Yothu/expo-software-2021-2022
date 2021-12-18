@@ -1,0 +1,15 @@
+/* MAIN-HEADER */
+#inner-header-container {
+  flex-basis: 1300px;
+}
+
+.list-container {
+  justify-content: space-between;
+}
+
+/* MAIN-CONTENT */
+.main {
+  width: 1300px;
+}
+
+/*# sourceMappingURL=1400px-style.css.map */
