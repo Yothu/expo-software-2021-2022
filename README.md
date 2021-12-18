@@ -1,76 +1,43 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# FIRST PORTFOLIO <!-- CHANGE -->
 
-# Project Name
-
-> One paragraph statement about the project.
+> The capstone project of the first Microverse's course module
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://yothu.github.io/module-1-capstone-project/)
 
+## Author
 
-## Getting Started
+👤 David Vergaray
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub:   [@Yothu](https://github.com/Yothu)
+- Twiter:   [@Daivhy](https://twitter.com/Daivhy)
+- LinkedIn: [David Vergaray](https://www.linkedin.com/in/david-vergaray-almontes-051a11127/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [Issues page](./issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## Acknowledgments <!-- CHANGE -->
 
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
 
-## 📝 License
+## License
 
 This project is [MIT](./MIT.md) licensed.
