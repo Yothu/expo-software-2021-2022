@@ -1,0 +1,54 @@
+/* COLORS */
+$black: #272a31;
+$red: #ec5242;
+$light-grey: #d3d3d3;
+$light-grey-2: #f8f8f8;
+
+.color-black {
+  color: $black !important;
+}
+
+.color-red {
+  color: $red !important;
+}
+
+.color-light-grey {
+  color: $light-grey !important;
+}
+
+.color-light-grey-2 {
+  color: $light-grey-2 !important;
+}
+
+/* BORDER */
+
+.border-red {
+  border-color: $red !important;
+}
+
+/* Navbar */
+
+$main-header-y-padding: 20px;
+
+#nav-bar {
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#outer-header-container {
+  justify-content: center;
+}
+
+/* main top padding */
+$main-header-x-size: 56px;
+
+.main {
+  margin-top: $main-header-x-size + (2 * $main-header-y-padding);
+  background-color: $light-grey-2;
+}
+
+.main-description {
+  background-color: $light-grey-2;
+  border: 3px solid white;
+}

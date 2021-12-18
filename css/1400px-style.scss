@@ -1,6 +1,9 @@
+$page-width: 1300px;
+
 /* MAIN-HEADER */
+
 #inner-header-container {
-  flex-basis: 1300px;
+  flex-basis: $page-width;
 }
 
 .list-container {
@@ -8,6 +11,7 @@
 }
 
 /* MAIN-CONTENT */
+
 .main {
-  width: 1300px;
+  width: $page-width;
 }
