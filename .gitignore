@@ -1,4 +1,5 @@
 .stylelintrc.json
+.eslintrc.json
 
 css/font-style.css.map
 css/main-style.css.map

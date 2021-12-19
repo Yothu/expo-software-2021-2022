@@ -59,6 +59,10 @@
   border: 3px solid white;
 }
 
+.about-main-description {
+  border: 1px solid #d3d3d3;
+}
+
 .program {
   background-color: #272a31;
 }
@@ -104,5 +108,3 @@
   position: relative;
   top: 12px;
 }
-
-/*# sourceMappingURL=main-style.css.map */
