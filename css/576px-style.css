@@ -1,3 +1,24 @@
 #main-content-container {
   height: 730px;
 }
+
+.program-logo {
+  width: 60px;
+}
+
+#program-join-button {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.speaker-image {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 10px;
+  top: 22px;
+}
+
+/*# sourceMappingURL=576px-style.css.map */

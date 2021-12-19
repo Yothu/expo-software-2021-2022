@@ -3,7 +3,6 @@
   font-family: cocogoose-pro;
   src: url("./fonts/cocogoose-pro.otf");
 }
-
 .font-coco {
   font-family: "cocogoose-pro", sans-serif !important;
 }
@@ -13,6 +12,14 @@
 }
 
 /* FONT SIZE */
+.font-12px {
+  font-size: 12px !important;
+}
+
+.font-15px {
+  font-size: 15px !important;
+}
+
 .font-18px {
   font-size: 18px !important;
 }
@@ -86,6 +93,14 @@
 }
 
 @media screen and (min-width: 576px) {
+  .font-sm-12px {
+    font-size: 12px !important;
+  }
+
+  .font-sm-15px {
+    font-size: 15px !important;
+  }
+
   .font-sm-18px {
     font-size: 18px !important;
   }
@@ -158,8 +173,15 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 768px) {
+  .font-sm-12px {
+    font-size: 12px !important;
+  }
+
+  .font-sm-15px {
+    font-size: 15px !important;
+  }
+
   .font-md-18px {
     font-size: 18px !important;
   }
@@ -232,8 +254,15 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 992px) {
+  .font-sm-12px {
+    font-size: 12px !important;
+  }
+
+  .font-sm-15px {
+    font-size: 15px !important;
+  }
+
   .font-lg-18px {
     font-size: 18px !important;
   }
@@ -306,8 +335,15 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 1200px) {
+  .font-sm-12px {
+    font-size: 12px !important;
+  }
+
+  .font-sm-15px {
+    font-size: 15px !important;
+  }
+
   .font-xl-18px {
     font-size: 18px !important;
   }
@@ -380,8 +416,15 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 1400px) {
+  .font-sm-12px {
+    font-size: 12px !important;
+  }
+
+  .font-sm-15px {
+    font-size: 15px !important;
+  }
+
   .font-xxl-18px {
     font-size: 18px !important;
   }
@@ -454,3 +497,5 @@
     font-size: 95px !important;
   }
 }
+
+/*# sourceMappingURL=font-style.css.map */

@@ -39,6 +39,10 @@ $light-grey-2: #f8f8f8;
   border-color: $red !important;
 }
 
+.border-gray {
+  border-color: $light-grey !important;
+}
+
 /* Navbar */
 
 $main-header-y-padding: 20px;
@@ -71,11 +75,16 @@ $main-header-x-size: 50px;
 }
 
 .program-logo {
-  width: 60px;
+  width: 40px;
 }
 
 .program-block {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.program-block:hover {
+  padding: 17px;
+  border: 3px solid white;
 }
 
 #program-join {
@@ -84,8 +93,25 @@ $main-header-x-size: 50px;
 }
 
 #program-join-button {
-  padding-left: 75px;
-  padding-right: 75px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.speaker-container {
+  min-height: 175px;
+}
+
+.speaker-back-image {
+  background-image: url('../images/featured-speaker-image-back-mobile.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.speaker-image {
+  width: 30vw;
+  height: 30vw;
+  position: relative;
+  top: 12px;
 }
