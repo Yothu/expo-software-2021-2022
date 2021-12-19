@@ -5,7 +5,7 @@
 }
 
 .font-coco {
-  font-family: 'cocogoose-pro', sans-serif !important;
+  font-family: "cocogoose-pro", sans-serif !important;
 }
 
 .font-lato {
@@ -33,8 +33,10 @@
 /* 50px */
 
 /* 70px */
+
+/* X-Small */
 .font-xxs {
-  font-size: 21px !important;
+  font-size: 20px !important;
 }
 
 .font-xs {
@@ -42,33 +44,248 @@
 }
 
 .font-s {
-  font-size: 20px !important;
-}
-
-.font-m {
-  font-size: 25px !important;
-}
-
-.font-xm {
   font-size: 30px !important;
 }
 
-.font-xxm {
+.font-m {
   font-size: 35px !important;
 }
 
-.font-l {
+.font-xm {
   font-size: 40px !important;
 }
 
-.font-xl {
+.font-xxm {
   font-size: 45px !important;
 }
 
-.font-xxl {
+.font-l {
   font-size: 50px !important;
+}
+
+.font-xl {
+  font-size: 60px !important;
+}
+
+.font-xxl {
+  font-size: 70px !important;
 }
 
 .font-xxxl {
   font-size: 95px !important;
+}
+
+/* SMALL */
+@media screen and (min-width: 576px) {
+  .font-sm-xxs {
+    font-size: 20px !important;
+  }
+
+  .font-sm-xs {
+    font-size: 25px !important;
+  }
+
+  .font-sm-s {
+    font-size: 30px !important;
+  }
+
+  .font-sm-m {
+    font-size: 35px !important;
+  }
+
+  .font-sm-xm {
+    font-size: 40px !important;
+  }
+
+  .font-sm-xxm {
+    font-size: 45px !important;
+  }
+
+  .font-sm-l {
+    font-size: 50px !important;
+  }
+
+  .font-sm-xl {
+    font-size: 60px !important;
+  }
+
+  .font-sm-xxl {
+    font-size: 70px !important;
+  }
+
+  .font-sm-xxxl {
+    font-size: 95px !important;
+  }
+}
+
+/* MEDIUM */
+@media screen and (min-width: 768px) {
+  .font-md-xxs {
+    font-size: 20px !important;
+  }
+
+  .font-md-xs {
+    font-size: 25px !important;
+  }
+
+  .font-md-s {
+    font-size: 30px !important;
+  }
+
+  .font-md-m {
+    font-size: 35px !important;
+  }
+
+  .font-md-xm {
+    font-size: 40px !important;
+  }
+
+  .font-md-xxm {
+    font-size: 45px !important;
+  }
+
+  .font-md-l {
+    font-size: 50px !important;
+  }
+
+  .font-md-xl {
+    font-size: 60px !important;
+  }
+
+  .font-md-xxl {
+    font-size: 70px !important;
+  }
+
+  .font-md-xxxl {
+    font-size: 95px !important;
+  }
+}
+
+/* LARGE */
+@media screen and (min-width: 992px) {
+  .font-lg-xxs {
+    font-size: 20px !important;
+  }
+
+  .font-lg-xs {
+    font-size: 25px !important;
+  }
+
+  .font-lg-s {
+    font-size: 30px !important;
+  }
+
+  .font-lg-m {
+    font-size: 35px !important;
+  }
+
+  .font-lg-xm {
+    font-size: 40px !important;
+  }
+
+  .font-lg-xxm {
+    font-size: 45px !important;
+  }
+
+  .font-lg-l {
+    font-size: 50px !important;
+  }
+
+  .font-lg-xl {
+    font-size: 60px !important;
+  }
+
+  .font-lg-xxl {
+    font-size: 70px !important;
+  }
+
+  .font-lg-xxxl {
+    font-size: 95px !important;
+  }
+}
+
+/* EXTRA LARGE */
+@media screen and (min-width: 1200px) {
+  .font-xl-xxs {
+    font-size: 20px !important;
+  }
+
+  .font-xl-xs {
+    font-size: 25px !important;
+  }
+
+  .font-xl-s {
+    font-size: 30px !important;
+  }
+
+  .font-xl-m {
+    font-size: 35px !important;
+  }
+
+  .font-xl-xm {
+    font-size: 40px !important;
+  }
+
+  .font-xl-xxm {
+    font-size: 45px !important;
+  }
+
+  .font-xl-l {
+    font-size: 50px !important;
+  }
+
+  .font-xl-xl {
+    font-size: 60px !important;
+  }
+
+  .font-xl-xxl {
+    font-size: 70px !important;
+  }
+
+  .font-xl-xxxl {
+    font-size: 95px !important;
+  }
+}
+
+/* EXTRA EXTRA LARGE */
+@media screen and (min-width: 1400px) {
+  .font-xxl-xxs {
+    font-size: 20px !important;
+  }
+
+  .font-xxl-xs {
+    font-size: 25px !important;
+  }
+
+  .font-xxl-s {
+    font-size: 30px !important;
+  }
+
+  .font-xxl-m {
+    font-size: 35px !important;
+  }
+
+  .font-xxl-xm {
+    font-size: 40px !important;
+  }
+
+  .font-xxl-xxm {
+    font-size: 45px !important;
+  }
+
+  .font-xxl-l {
+    font-size: 50px !important;
+  }
+
+  .font-xxl-xl {
+    font-size: 60px !important;
+  }
+
+  .font-xxl-xxl {
+    font-size: 70px !important;
+  }
+
+  .font-xxl-xxxl {
+    font-size: 95px !important;
+  }
 }

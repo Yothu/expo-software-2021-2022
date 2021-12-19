@@ -29,6 +29,10 @@ $light-grey-2: #f8f8f8;
   color: $light-grey-2 !important;
 }
 
+.bg-red {
+  background-color: $red !important;
+}
+
 /* BORDER */
 
 .border-red {
@@ -64,4 +68,24 @@ $main-header-x-size: 50px;
 
 .program {
   background-color: $black;
+}
+
+.program-logo {
+  width: 60px;
+}
+
+.program-block {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#program-join {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#program-join-button {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
