@@ -47,12 +47,6 @@ $light-grey-2: #f8f8f8;
 
 $main-header-y-padding: 20px;
 
-#nav-bar {
-  border: 1px solid black;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 #outer-header-container {
   justify-content: center;
 }
@@ -68,10 +62,6 @@ $main-header-x-size: 50px;
 .main-description {
   background-color: $light-grey-2;
   border: 3px solid white;
-}
-
-.about-main-description {
-  border: 1px solid $light-grey;
 }
 
 .program {

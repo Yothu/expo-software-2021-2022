@@ -38,12 +38,6 @@
 }
 
 /* Navbar */
-#nav-bar {
-  border: 1px solid black;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 #outer-header-container {
   justify-content: center;
 }
@@ -57,10 +51,6 @@
 .main-description {
   background-color: #f8f8f8;
   border: 3px solid white;
-}
-
-.about-main-description {
-  border: 1px solid #d3d3d3;
 }
 
 .program {
@@ -108,3 +98,5 @@
   position: relative;
   top: 12px;
 }
+
+/*# sourceMappingURL=main-style.css.map */
