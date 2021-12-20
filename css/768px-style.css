@@ -3,4 +3,32 @@
   min-height: 310px;
 }
 
+.speakers-container {
+  max-width: 1455px;
+}
+
+.speaker-outer-container {
+  flex-basis: 500px;
+  flex-grow: 1;
+  max-width: 690px;
+}
+
+.speaker-back-image {
+  background-image: url("../images/featured-speaker-image-back-desktop.png");
+}
+
+.speaker-image {
+  width: 190px !important;
+  height: 190px !important;
+  position: relative;
+  left: 10px;
+  top: 22px;
+}
+
+@media screen and (min-width: 1032px) {
+  #speakers-content-container {
+    justify-content: space-between !important;
+  }
+}
+
 /*# sourceMappingURL=768px-style.css.map */

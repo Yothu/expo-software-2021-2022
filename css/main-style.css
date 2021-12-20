@@ -86,6 +86,10 @@
   min-height: 175px;
 }
 
+.speaker-outer-container {
+  max-width: 600px;
+}
+
 .speaker-back-image {
   background-image: url("../images/featured-speaker-image-back-mobile.png");
   background-repeat: no-repeat;

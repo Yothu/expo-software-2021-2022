@@ -3,7 +3,6 @@
   font-family: cocogoose-pro;
   src: url("./fonts/cocogoose-pro.otf");
 }
-
 .font-coco {
   font-family: "cocogoose-pro", sans-serif !important;
 }
@@ -174,13 +173,12 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 768px) {
-  .font-sm-12px {
+  .font-md-12px {
     font-size: 12px !important;
   }
 
-  .font-sm-15px {
+  .font-md-15px {
     font-size: 15px !important;
   }
 
@@ -256,13 +254,12 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 992px) {
-  .font-sm-12px {
+  .font-lg-12px {
     font-size: 12px !important;
   }
 
-  .font-sm-15px {
+  .font-lg-15px {
     font-size: 15px !important;
   }
 
@@ -338,13 +335,12 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 1200px) {
-  .font-sm-12px {
+  .font-xl-12px {
     font-size: 12px !important;
   }
 
-  .font-sm-15px {
+  .font-xl-15px {
     font-size: 15px !important;
   }
 
@@ -420,13 +416,12 @@
     font-size: 95px !important;
   }
 }
-
 @media screen and (min-width: 1400px) {
-  .font-sm-12px {
+  .font-xxl-12px {
     font-size: 12px !important;
   }
 
-  .font-sm-15px {
+  .font-xxl-15px {
     font-size: 15px !important;
   }
 
@@ -502,3 +497,5 @@
     font-size: 95px !important;
   }
 }
+
+/*# sourceMappingURL=font-style.css.map */
