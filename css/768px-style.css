@@ -1,10 +1,18 @@
+.header-container-header {
+  max-width: 850px;
+}
+
+.main-md {
+  max-width: 850px;
+}
+
 .program-cont-md {
   flex-basis: 275px;
   min-height: 310px;
 }
 
 .speakers-container {
-  max-width: 1455px;
+  max-width: 1455px !important;
 }
 
 .speaker-outer-container {

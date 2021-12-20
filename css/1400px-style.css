@@ -1,6 +1,6 @@
 /* MAIN-HEADER */
 #inner-header-container {
-  flex-basis: 1300px;
+  flex-basis: 1455px;
 }
 
 .list-container {
@@ -8,6 +8,13 @@
 }
 
 /* MAIN-CONTENT */
-.main {
-  width: 1300px;
+.header-container-header {
+  max-width: 1455px;
 }
+
+.main-xxl {
+  width: 1455px;
+  height: 1000px;
+}
+
+/*# sourceMappingURL=1400px-style.css.map */

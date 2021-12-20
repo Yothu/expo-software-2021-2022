@@ -43,9 +43,12 @@
 }
 
 /* main top padding */
-.main {
-  margin-top: 90px;
+.main-outer-container {
   background-color: #f8f8f8;
+}
+
+.main {
+  margin-top: 80px;
 }
 
 .main-description {

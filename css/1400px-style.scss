@@ -1,4 +1,4 @@
-$page-width: 1300px;
+$page-width: 1455px;
 
 /* MAIN-HEADER */
 
@@ -11,7 +11,11 @@ $page-width: 1300px;
 }
 
 /* MAIN-CONTENT */
+.header-container-header {
+  max-width: $page-width;
+}
 
-.main {
+.main-xxl {
   width: $page-width;
+  height: 1000px;
 }

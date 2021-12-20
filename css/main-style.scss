@@ -45,7 +45,7 @@ $light-grey-2: #f8f8f8;
 
 /* Navbar */
 
-$main-header-y-padding: 20px;
+$main-header-y-padding: 15px;
 
 #outer-header-container {
   justify-content: center;
@@ -54,9 +54,12 @@ $main-header-y-padding: 20px;
 /* main top padding */
 $main-header-x-size: 50px;
 
+.main-outer-container {
+  background-color: $light-grey-2;
+}
+
 .main {
   margin-top: $main-header-x-size + (2 * $main-header-y-padding);
-  background-color: $light-grey-2;
 }
 
 .main-description {
