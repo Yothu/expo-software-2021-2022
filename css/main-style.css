@@ -28,6 +28,18 @@
   background-color: #ec5242 !important;
 }
 
+.bg-grey-2 {
+  background-color: #f8f8f8 !important;
+}
+
+.bg-black {
+  background-color: #272a31;
+}
+
+.bg-black-2 {
+  background-color: #424146;
+}
+
 /* BORDER */
 .border-red {
   border-color: #ec5242 !important;
@@ -104,6 +116,27 @@
   height: 30vw;
   position: relative;
   top: 12px;
+}
+
+/* ABOUT PAGE */
+.past-image {
+  width: 100%;
+  max-width: 440px;
+  max-height: 240px;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.past-upper-text {
+  top: 40%;
+}
+
+.past-bottom-text {
+  top: 60%;
+}
+
+.footer-logo {
+  max-height: 63px;
+  max-width: 180px;
 }
 
 /*# sourceMappingURL=main-style.css.map */

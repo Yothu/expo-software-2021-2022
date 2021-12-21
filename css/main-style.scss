@@ -9,6 +9,7 @@
 
 /* COLORS */
 $black: #272a31;
+$black-2: #424146;
 $red: #ec5242;
 $light-grey: #d3d3d3;
 $light-grey-2: #f8f8f8;
@@ -31,6 +32,18 @@ $light-grey-2: #f8f8f8;
 
 .bg-red {
   background-color: $red !important;
+}
+
+.bg-grey-2 {
+  background-color: $light-grey-2 !important;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-black-2 {
+  background-color: $black-2;
 }
 
 /* BORDER */
@@ -115,4 +128,25 @@ $main-header-x-size: 50px;
   height: 30vw;
   position: relative;
   top: 12px;
+}
+
+/* ABOUT PAGE */
+.past-image {
+  width: 100%;
+  max-width: 440px;
+  max-height: 240px;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.past-upper-text {
+  top: 40%;
+}
+
+.past-bottom-text {
+  top: 60%;
+}
+
+.footer-logo {
+  max-height: 63px;
+  max-width: 180px;
 }
