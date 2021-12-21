@@ -2,8 +2,8 @@ $page-width: 1455px;
 
 /* MAIN-HEADER */
 
-#inner-header-container {
-  flex-basis: $page-width;
+.inner-header-container {
+  flex-basis: $page-width !important;
 }
 
 .list-container {
@@ -11,11 +11,16 @@ $page-width: 1455px;
 }
 
 /* MAIN-CONTENT */
-.header-container-header {
+.max-content-width {
   max-width: $page-width;
 }
 
 .main-xxl {
   width: $page-width;
   height: 1000px;
+}
+
+/* ABOUT PAGE */
+.about-logo-width {
+  width: 35%;
 }

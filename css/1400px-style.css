@@ -1,6 +1,6 @@
 /* MAIN-HEADER */
-#inner-header-container {
-  flex-basis: 1455px;
+.inner-header-container {
+  flex-basis: 1455px !important;
 }
 
 .list-container {
@@ -8,13 +8,18 @@
 }
 
 /* MAIN-CONTENT */
-.header-container-header {
+.max-content-width {
   max-width: 1455px;
 }
 
 .main-xxl {
   width: 1455px;
   height: 1000px;
+}
+
+/* ABOUT PAGE */
+.about-logo-width {
+  width: 35%;
 }
 
 /*# sourceMappingURL=1400px-style.css.map */

@@ -134,3 +134,29 @@ moreButtonContainer.appendChild(moreButtonArrow);
 /* APPEND TO SPEAKERS CONTAINER */
 const speakersContainer2 = document.getElementById('speakers-content-container');
 // speakersContainer2.appendChild(moreButtonContainer); AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+/* POPUP MENU */
+const menuButton = document.querySelector('.pop-menu-icon');
+const popupMenu = document.querySelector('.inner-header-container');
+const menuLogo = document.querySelector('.header-menu-logo');
+const topMenuContainer = document.querySelector('.top-menu-container');
+const popMenuItems = document.querySelector('.pop-menu-item');
+const popCross = document.querySelector('.cross-icon-a');
+
+menuButton.onclick = function openMenu() {
+  popupMenu.classList.toggle('pop-menu-toggle');  
+  menuLogo.classList.toggle('d-flex');
+  topMenuContainer.classList.toggle('d-flex');
+  popMenuItems.classList.toggle('pop-menu-item-toggle');
+  popCross.classList.toggle('d-flex');
+  menuButton.classList.toggle('d-none');
+};
+
+popCross.onclick = function closeMenu() {
+  popupMenu.classList.toggle('pop-menu-toggle');  
+  menuLogo.classList.toggle('d-flex');
+  topMenuContainer.classList.toggle('d-flex');
+  popMenuItems.classList.toggle('pop-menu-item-toggle');
+  popCross.classList.toggle('d-flex');
+  menuButton.classList.toggle('d-none');
+}

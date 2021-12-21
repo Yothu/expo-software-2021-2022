@@ -1,5 +1,13 @@
-.header-container-header {
+.max-content-width {
   max-width: 850px;
+}
+
+.top-navbar {
+  background-color: white !important;
+}
+
+.border-shadow {
+  box-shadow: 0 10px 16px 0 rgba(63, 62, 62, 0.2),0 6px 20px 0 rgba(49, 49, 49, 0.19) !important;
 }
 
 .main-md {
@@ -37,4 +45,9 @@
   #speakers-content-container {
     justify-content: space-between !important;
   }
+}
+
+/* ABOUT PAGE */
+.about-logo-width {
+  width: 70%;
 }

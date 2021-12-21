@@ -1,3 +1,8 @@
+/* DISPLAY  */
+.display-none {
+  display: none;
+}
+
 /* PADDING */
 .p-25 {
   padding: 25px;
@@ -32,12 +37,20 @@
   background-color: #f8f8f8 !important;
 }
 
+.bg-grey-3 {
+  background-color: #E8E8E8;
+}
+
 .bg-black {
   background-color: #272a31;
 }
 
 .bg-black-2 {
   background-color: #424146;
+}
+
+.bg-home {
+  background-image: url("../images/background/background-image-2.png");
 }
 
 /* BORDER */
@@ -50,8 +63,9 @@
 }
 
 /* Navbar */
-#outer-header-container {
-  justify-content: center;
+.header-menu-icon {
+  height: 40px;
+  width: 44px;
 }
 
 /* main top padding */
@@ -59,8 +73,52 @@
   background-color: #f8f8f8;
 }
 
+/* POPUP MENU */
+@media screen and (max-width: 767px) {
+  .pop-menu-toggle {
+    display: flex !important;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: white !important;
+    padding-top: 1rem;
+    justify-content: flex-start !important;
+  }
+
+  .pop-menu-item-toggle {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 2rem;
+  }
+
+  .pop-menu-item-toggle > li > a {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+  }
+
+  .top-menu-container {
+    justify-content: space-between !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .cross-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+.separator {
+  width: 100%;
+  height: 1px;
+}
+
 .main {
-  margin-top: 80px;
+  margin-top: 72px;
 }
 
 .main-description {
@@ -119,6 +177,14 @@
 }
 
 /* ABOUT PAGE */
+.arrow-icon {
+  height: 20px;
+}
+
+.about-logo-width {
+  width: 100%;
+}
+
 .past-image {
   width: 100%;
   max-width: 440px;
@@ -132,6 +198,11 @@
 
 .past-bottom-text {
   top: 60%;
+}
+
+.partner-logo {
+  width: 100px;
+  height: 40px;
 }
 
 .footer-logo {

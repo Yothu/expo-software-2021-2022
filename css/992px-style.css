@@ -1,10 +1,15 @@
-.header-container-header {
+.max-content-width {
   max-width: 920px;
 }
 
 .main-lg {
   max-width: 920px;
   height: 900px;
+}
+
+/* ABOUT PAGE */
+.about-logo-width {
+  width: 55%;
 }
 
 /*# sourceMappingURL=992px-style.css.map */
