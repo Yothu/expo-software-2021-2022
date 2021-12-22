@@ -1,6 +1,7 @@
 # EXPO SOFTWARE 2021 ~ 2022
 
 > This is the capstone project of the first Microverse course module.
+> The first Miicroverse capstone project is about creating a completely faithful recreation of [this](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) web page design. Changing its theme in a way the creator of this project wishes.
 
 ![screenshot](./app_screenshot.png)
 
@@ -32,12 +33,10 @@ Feel free to check the [Issues page](./issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments <!-- CHANGE -->
+## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) created by [Cindy Shin](https://www.behance.net/adagio07) in Behance.
 
 ## License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./MIT.md) and [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
