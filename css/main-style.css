@@ -91,7 +91,7 @@
 }
 
 .program {
-  background-color: #272a31;
+  background-image: url("../images/background/program-background.jpg");
 }
 
 .program-logo {
@@ -213,3 +213,5 @@
     width: 50px;
   }
 }
+
+/*# sourceMappingURL=main-style.css.map */
