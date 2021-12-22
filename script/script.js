@@ -3,42 +3,42 @@ const speaker1 = {
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   description: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-  image: '',
+  image: './images/fat-cats/round-seal.jpeg',
 };
 
 const speaker2 = {
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   description: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-  image: '',
+  image: './images/fat-cats/round-seal.jpeg',
 };
 
 const speaker3 = {
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   description: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-  image: '',
+  image: './images/fat-cats/round-seal.jpeg',
 };
 
 const speaker4 = {
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   description: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-  image: '',
+  image: './images/fat-cats/round-seal.jpeg',
 };
 
 const speaker5 = {
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   description: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-  image: '',
+  image: './images/fat-cats/round-seal.jpeg',
 };
 
 const speaker6 = {
   name: 'Yochai Benkler',
   title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
   description: 'Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006.',
-  image: '',
+  image: './images/fat-cats/round-seal.jpeg',
 };
 
 const speakers = [
@@ -50,12 +50,18 @@ const speakers = [
   speaker6,
 ];
 
+const frontSpeakers = 2;
+
 /* CREATE SPEAKERS IN SPEAKERS SECTION */
 for (let i = 0; i < speakers.length; i += 1) {
   /* SPEAKER OUTER CONTAINER */
   const speakerOutContainer = document.createElement('div');
   speakerOutContainer.setAttribute('id', `speaker-container-${i + 1}`);
-  speakerOutContainer.classList.add('container-fluid', 'mb-5');
+  speakerOutContainer.classList.add('container-fluid', 'mb-5', 'speaker-outer-container', 'mx-md-0', 'd-md-block', 'speaker');
+
+  if (i >= frontSpeakers) {
+    speakerOutContainer.classList.add('d-none');
+  }
 
   /* --- SPEAKER INNER CONTAINER */
   const speakerInnContainer = document.createElement('div');
@@ -64,7 +70,7 @@ for (let i = 0; i < speakers.length; i += 1) {
 
   /* --- --- SPEAKER IMAGE CONTAINER */
   const speakerImageContainer = document.createElement('div');
-  speakerImageContainer.classList.add('col-4', 'speaker-back-image');
+  speakerImageContainer.classList.add('col-4', 'col-md-5', 'col-xxl-4', 'speaker-back-image');
   speakerInnContainer.appendChild(speakerImageContainer);
 
   /* --- --- --- SPEAKER IMAGE */
@@ -76,19 +82,19 @@ for (let i = 0; i < speakers.length; i += 1) {
 
   /* --- --- SPEAKER CONTENT CONTAINER */
   const speakerContContainer = document.createElement('div');
-  speakerContContainer.classList.add('col-8', 'd-flex', 'flex-column');
+  speakerContContainer.classList.add('col-8', 'col-md-7', 'col-xxl-8', 'd-flex', 'flex-column');
   speakerInnContainer.appendChild(speakerContContainer);
 
   /* --- --- --- SPEAKER NAME */
   const speakerName = document.createElement('h3');
-  speakerName.classList.add('font-20px', 'color-black', 'font-lato', 'fw-bolder');
+  speakerName.classList.add('font-20px', 'font-md-25px', 'color-black', 'font-lato', 'fw-bolder');
   let text = document.createTextNode(speakers[i].name);
   speakerName.appendChild(text);
   speakerContContainer.appendChild(speakerName);
 
   /* --- --- --- SPEAKER TITLE */
   const speakerTitle = document.createElement('p');
-  speakerTitle.classList.add('font-15px', 'fst-italic', 'color-red', 'font-lato');
+  speakerTitle.classList.add('font-15px', 'font-md-20px', 'fst-italic', 'color-red', 'font-lato');
   text = document.createTextNode(speakers[i].title);
   speakerTitle.appendChild(text);
   speakerContContainer.appendChild(speakerTitle);
@@ -102,19 +108,23 @@ for (let i = 0; i < speakers.length; i += 1) {
 
   /* --- --- --- SPEAKER DESCRIPTION */
   const speakerDescription = document.createElement('p');
-  speakerDescription.classList.add('font-12px', 'font-lato');
+  speakerDescription.classList.add('font-12px', 'font-md-18px', 'font-lato');
   text = document.createTextNode(speakers[i].description);
   speakerDescription.appendChild(text);
   speakerContContainer.appendChild(speakerDescription);
 
   /* APPEND TO SPEAKERS CONTAINER */
   const speakersContainer = document.getElementById('speakers-content-container');
-  // speakersContainer.appendChild(speakerOutContainer); AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  speakersContainer.appendChild(speakerOutContainer);
 }
 
 /* SPEAKERS SECTION - MORE BUTTON */
 const moreButtonContainer = document.createElement('div');
-moreButtonContainer.classList.add('container-fluid', 'd-flex', 'justify-content-center', 'align-content-center', 'border-2', 'border-gray', 'border', 'py-3');
+moreButtonContainer.classList.add('container-fluid', 'd-flex', 'justify-content-center', 'align-content-center', 'border-2', 'border-gray', 'border', 'py-3', 'd-md-none');
+
+if (speakers.length <= frontSpeakers) {
+  moreButtonContainer.classList.add('d-none');
+}
 
 /* MORE BUTTON TEXT */
 const moreButtonText = document.createElement('a');
@@ -126,14 +136,25 @@ moreButtonContainer.appendChild(moreButtonText);
 
 /* MORE BUTTON ARROW */
 const moreButtonArrow = document.createElement('img');
-moreButtonArrow.setAttribute('src', ''); /* SET SOURCE */
+moreButtonArrow.setAttribute('src', './images/red-arrow.png');
 moreButtonArrow.setAttribute('alt', 'down-arroww');
 /* SET CLASSES IF ANY */
 moreButtonContainer.appendChild(moreButtonArrow);
 
 /* APPEND TO SPEAKERS CONTAINER */
 const speakersContainer2 = document.getElementById('speakers-content-container');
-// speakersContainer2.appendChild(moreButtonContainer); AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+speakersContainer2.appendChild(moreButtonContainer);
+
+const speakerDivs = document.querySelectorAll('.speaker');
+
+moreButtonContainer.onclick = function deployAllSpeakers() {
+  speakerDivs.forEach((spker) => {
+    if (spker.classList.contains('d-none')) {
+      spker.classList.toggle('d-none');
+      moreButtonContainer.classList.add('d-none');
+    }
+  });
+};
 
 /* POPUP MENU */
 const menuButton = document.querySelector('.pop-menu-icon');
@@ -144,7 +165,7 @@ const popMenuItems = document.querySelector('.pop-menu-item');
 const popCross = document.querySelector('.cross-icon-a');
 
 menuButton.onclick = function openMenu() {
-  popupMenu.classList.toggle('pop-menu-toggle');  
+  popupMenu.classList.toggle('pop-menu-toggle');
   menuLogo.classList.toggle('d-flex');
   topMenuContainer.classList.toggle('d-flex');
   popMenuItems.classList.toggle('pop-menu-item-toggle');
@@ -153,10 +174,10 @@ menuButton.onclick = function openMenu() {
 };
 
 popCross.onclick = function closeMenu() {
-  popupMenu.classList.toggle('pop-menu-toggle');  
+  popupMenu.classList.toggle('pop-menu-toggle');
   menuLogo.classList.toggle('d-flex');
   topMenuContainer.classList.toggle('d-flex');
   popMenuItems.classList.toggle('pop-menu-item-toggle');
   popCross.classList.toggle('d-flex');
   menuButton.classList.toggle('d-none');
-}
+};

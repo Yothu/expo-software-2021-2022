@@ -38,7 +38,7 @@
 }
 
 .bg-grey-3 {
-  background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 
 .bg-black {
@@ -115,10 +115,6 @@
 .separator {
   width: 100%;
   height: 1px;
-}
-
-.main {
-  margin-top: 72px;
 }
 
 .main-description {

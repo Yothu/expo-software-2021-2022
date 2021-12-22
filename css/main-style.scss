@@ -18,7 +18,7 @@ $black-2: #424146;
 $red: #ec5242;
 $light-grey: #d3d3d3;
 $light-grey-2: #f8f8f8;
-$light-grey-3: #E8E8E8;
+$light-grey-3: #e8e8e8;
 
 .color-black {
   color: $black !important;
@@ -85,7 +85,7 @@ $main-header-x-size: 42px;
 }
 
 /* POPUP MENU */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .pop-menu-toggle {
     display: flex !important;
     flex-direction: column;

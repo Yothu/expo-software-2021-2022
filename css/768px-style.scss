@@ -7,7 +7,7 @@
 }
 
 .border-shadow {
-  box-shadow: 0 10px 16px 0 rgba(63, 62, 62, 0.2),0 6px 20px 0 rgba(49, 49, 49, 0.19) !important;
+  box-shadow: 0 10px 16px 0 rgba(63, 62, 62, 0.2), 0 6px 20px 0 rgba(49, 49, 49, 0.19) !important;
 }
 
 .main-md {
@@ -41,7 +41,7 @@
   top: 22px;
 }
 
-@media screen and (min-width: 1032px){
+@media screen and (min-width: 1032px) {
   #speakers-content-container {
     justify-content: space-between !important;
   }
