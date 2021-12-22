@@ -60,6 +60,13 @@ $light-grey-3: #e8e8e8;
   background-image: url('../images/background/background-image-2.png');
 }
 
+.text-background-1 {
+  background-image: url('../images/background/text-background.jpg');
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* BORDER */
 .border-red {
   border-color: $red !important;

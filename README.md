@@ -1,6 +1,6 @@
-# FIRST PORTFOLIO <!-- CHANGE -->
+# EXPO SOFTWARE 2021 ~ 2022
 
-> The capstone project of the first Microverse's course module
+> This is the capstone project of the first Microverse course module.
 
 ![screenshot](./app_screenshot.png)
 
