@@ -211,8 +211,6 @@ menuButton.onclick = function openMenu() {
   menuButton.classList.toggle('d-none');
 };
 
-
-
 const popupButtons = document.querySelectorAll('.close');
 
 popupButtons.forEach((item) => {
