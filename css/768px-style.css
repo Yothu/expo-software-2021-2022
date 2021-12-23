@@ -45,8 +45,26 @@
   width: 70%;
 }
 
+.bg-md-black {
+  background-color: #272a31;
+}
+
+.text-md-white {
+  color: white;
+}
+
+.max-footer-width {
+  max-width: 75%;
+}
+
+.filter-md-invert-100 {
+  filter: invert(100%);
+}
+
 @media screen and (min-width: 1032px) {
   #speakers-content-container {
     justify-content: space-between !important;
   }
 }
+
+/*# sourceMappingURL=768px-style.css.map */
