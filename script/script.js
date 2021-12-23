@@ -211,11 +211,17 @@ menuButton.onclick = function openMenu() {
   menuButton.classList.toggle('d-none');
 };
 
-popCross.onclick = function closeMenu() {
-  popupMenu.classList.toggle('pop-menu-toggle');
-  menuLogo.classList.toggle('d-flex');
-  topMenuContainer.classList.toggle('d-flex');
-  popMenuItems.classList.toggle('pop-menu-item-toggle');
-  popCross.classList.toggle('d-flex');
-  menuButton.classList.toggle('d-none');
-};
+
+
+const popupButtons = document.querySelectorAll('.close');
+
+popupButtons.forEach((item) => {
+  item.onclick = function closeMenu() {
+    popupMenu.classList.toggle('pop-menu-toggle');
+    menuLogo.classList.toggle('d-flex');
+    topMenuContainer.classList.toggle('d-flex');
+    popMenuItems.classList.toggle('pop-menu-item-toggle');
+    popCross.classList.toggle('d-flex');
+    menuButton.classList.toggle('d-none');
+  };
+});
