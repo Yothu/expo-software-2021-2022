@@ -21,9 +21,20 @@
 </head>
 <body class="about">  
   <div id="hole-about-page">
-    <section id="main-page">
+    <section id="main-page" class="bg-home">
       <header id="main-header">
-        <nav class="navbar navbar-expand navbar-ligh py-3 top-navbar bg-grey-3 border-shadow">
+        <div class="bg-black d-md-flex justify-content-center d-none">
+          <div class="max-content-width d-flex justify-content-end container-fluid mx-md-1 mx-lg-2 mx-xl-3 mx-xxl-4">
+            <ul class="d-flex list-unstyled m-0">
+              <li class="d-flex align-items-center align-content-center"><a href="#"><img src="../images/logos/facebook-logo.png" alt="facebook-logo" class="top-logo mx-2"></a></li>
+              <li class="d-flex align-items-center align-content-center"><a href="#"><img src="../images/logos/twitter-logo-2.png" alt="twitter-logo" class="top-logo mx-2"></a></li>
+              <li class="font-lato font-15px px-3 py-2"><a href="#" class="text-white text-decoration-none">English</a></li>
+              <li class="font-lato font-15px px-3 py-2"><a href="#" class="text-white text-decoration-none">My Page</a></li>
+              <li class="font-lato font-15px px-3 py-2"><a href="#" class="text-white text-decoration-none">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand navbar-ligh py-3 top-navbar border-shadow">
           <div class="container-fluid justify-content-center">
             <div class="header-x-padding container-fluid d-flex justify-content-between max-content-width inner-header-container">
               <div class="top-menu-container">
@@ -60,7 +71,7 @@
           </div>
         </nav>        
       </header>
-      <div id="main-content" class="bg-home d-md-flex justify-content-md-center">
+      <div id="main-content" class="d-md-flex justify-content-md-center">
         <div id="main-content-container" class="main-sm main-md main-lg main-xl main-xxl p-20 d-flex flex-column justify-content-center align-content-center">
           <div>
             <p class="font-lato color-red font-25px font-sm-30px font-md-35px font-lg-40px font-xxl-45px px-2 text-center">
@@ -120,8 +131,8 @@ Expo Software 2021~2022 is located in Sagittarius A*.<br>This year, we hope to e
         </div>
       </div>
     </section>
-    <section id="partners-section-about" class="d-none d-md-block">
-      <div class="p-3 px-sm-5 bg-black-2">
+    <section id="partners-section-about">
+      <div class="p-3 px-sm-5 bg-black-2 d-md-none">
         <div id="program-section-about-title" class="d-flex flex-column align-content-center align-items-center my-5">
           <h2 class="text-white font-lato font-22px fw-bolder">Partner</h2>
           <img src="../images/separator.png" alt="separator">
@@ -134,12 +145,12 @@ Expo Software 2021~2022 is located in Sagittarius A*.<br>This year, we hope to e
           <a href="https://www.airbnb.com/" class="m-1"><img src="../images/logos/airbnb-logo.jpg" alt="airbnb-logo" class="partner-logo"></a> 
         </div>
       </div>
-      <div class="p-3 px-sm-5">
+      <footer class="p-3 px-sm-5">
         <div class="d-flex flex-wrap justify-content-center my-3">
           <a href="https://youtu.be/dQw4w9WgXcQ" class="m-3"><img src="../images/logos/hole-logo.png" alt="sagittarius-a-logo" class="footer-logo"></a>
           <p class="font-lato font-15px mx-3 align-self-center">2021 Sagittarius A*.<br> Rights Reserved.</p>
         </div>
-      </div>
+      </footer>
     </section>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

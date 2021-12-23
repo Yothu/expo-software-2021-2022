@@ -169,6 +169,10 @@
   height: 40px;
 }
 
+.max-footer-width {
+  max-width: 70%;
+}
+
 .footer-logo {
   max-height: 63px;
   max-width: 180px;
