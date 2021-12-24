@@ -1,0 +1,68 @@
+.max-content-width {
+  max-width: 850px;
+}
+
+.top-navbar {
+  background-color: white !important;
+}
+
+.border-shadow {
+  box-shadow: 0 10px 16px 0 rgba(63, 62, 62, 0.2), 0 6px 20px 0 rgba(49, 49, 49, 0.19) !important;
+}
+
+.main-md {
+  max-width: 850px;
+}
+
+.program-cont-md {
+  flex-basis: 275px;
+  min-height: 310px;
+}
+
+.speakers-container {
+  max-width: 1455px !important;
+}
+
+.speaker-outer-container {
+  flex-basis: 500px;
+  flex-grow: 1;
+  max-width: 690px;
+}
+
+.speaker-back-image {
+  background-image: url('../images/featured-speaker-image-back-desktop.png');
+}
+
+.speaker-image {
+  width: 190px !important;
+  height: 190px !important;
+  position: relative;
+  left: 10px;
+  top: 22px;
+}
+
+.about-logo-width {
+  width: 70%;
+}
+
+.bg-md-black {
+  background-color: #272a31;
+}
+
+.text-md-white {
+  color: white;
+}
+
+.max-footer-width {
+  max-width: 75%;
+}
+
+.filter-md-invert-100 {
+  filter: invert(100%);
+}
+
+@media screen and (min-width: 1032px) {
+  #speakers-content-container {
+    justify-content: space-between !important;
+  }
+}

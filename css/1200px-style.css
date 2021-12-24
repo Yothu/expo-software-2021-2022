@@ -1,0 +1,17 @@
+.max-content-width {
+  max-width: 1200px;
+}
+
+.main-xl {
+  max-width: 1200px;
+  height: 950px;
+}
+
+.main-description {
+  width: 60%;
+}
+
+/* ABOUT PAGE */
+.about-logo-width {
+  width: 45%;
+}

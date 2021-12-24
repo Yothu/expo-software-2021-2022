@@ -1,0 +1,23 @@
+/* MAIN-HEADER */
+.inner-header-container {
+  flex-basis: 1455px !important;
+}
+
+.list-container {
+  justify-content: space-between;
+}
+
+/* MAIN-CONTENT */
+.max-content-width {
+  max-width: 1455px;
+}
+
+.main-xxl {
+  width: 1455px;
+  height: 1000px;
+}
+
+/* ABOUT PAGE */
+.about-logo-width {
+  width: 35%;
+}
